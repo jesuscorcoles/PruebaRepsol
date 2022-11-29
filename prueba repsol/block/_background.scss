@@ -1,0 +1,109 @@
+.bigBox{
+    width: 100%;
+    height: 100%px;
+    top: 0px;
+    border: 20px solid rgb(255, 255, 255);
+    margin-top: -30px;
+    overflow: hidden;
+}
+
+.topLines{
+    width: 50%;
+    background-size: 100%;  
+}
+
+
+.imgTopRight{
+    right: 0px;
+    width: 100%;
+    position: absolute;  
+}
+
+.titleBox{
+    width: 40%;
+    height: 30%;
+    font-family: sans-serif;
+    font-size: 40px;
+    position: sticky;
+    margin-top: 200px;
+    margin-left: 200px;
+    text-align: center;
+    color: rgb(217, 114, 29);
+    border-style: outset; 
+    display: flex;
+    justify-content: center;  
+}
+
+.title{
+    width: 80%;
+}
+
+.coveritemsbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemsBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 80px;
+    justify-content: space-around;
+
+    @media (min-width: 3579px) {
+        justify-content: center;
+        width: 70%;
+        
+    }
+}
+
+
+.prodBox{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+
+    &--down{
+        margin-top: 150px;
+    }
+
+}
+
+.imgProducts{
+    width: 80%;
+
+    &--naranja{
+        width: 130%;
+    }
+
+    &--spray{
+        margin-top: 170px;
+    }
+
+    &--beige{
+        width: 140%;
+    }
+}
+
+.textProducts{
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.downImg{
+    width: 100%;
+    bottom: 0px;
+
+}
+
+.botesImg{
+    width: 100%;
+}
+
